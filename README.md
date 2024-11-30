@@ -35,22 +35,14 @@ use school
 
 # CRUD Operation Commands
 
+
+### 1. Insert Operations
+
  #### Insert a Single Document
 
 ```bash
 db.student.insertOne({name: 'tamil', age: 27})
 ```
-
-#### Retrieve All Data from a Collection
-
-```bash
-db.student.find()
-```
-
-#### Insert Operations
-
-db.student.insertOne({name: 'tamil', age: 27, district: 'cuddalore'})
-
 
 #### Insert One Document with Embedded Data
 
@@ -110,6 +102,59 @@ db.student.insertOne({
   createdAt: new Timestamp()
 })
 
+```
+
+
+### 2. Read Operations
+
+#### Retrieve all documents
+```bash
+db.student.find()
+```
+
+#### Retrieve data with a filter
+```bash
+db.student.find({district: 'Chennai'})
+```
+
+#### Retrieve a single document
+
+```bash
+db.student.findOne({name: 'Harish'})
+```
+
+### 3. Update Operations
+
+#### Update a single document
+```bash
+db.student.updateOne({name: 'Harish'}, {$set: {age: 23}})
+```
+
+#### Update multiple documents
+```bash
+db.student.updateMany({district: 'Chennai'}, {$set: {district: 'Madras'}})
+```
+
+### 4. Delete Operations
+
+#### Delete a single document
+```bash
+db.student.deleteOne({name: 'Harish'})
+```
+
+#### Delete multiple documents
+```bash
+db.student.deleteMany({district: 'Cuddalore'})
+```
+
+### 5. Replace Operations
+
+#### Replace a single document
+```bash
+db.student.replaceOne(
+  {name: 'Harish'},
+  {name: 'Harish Kumar', age: 24, district: 'Bangalore'}
+)
 ```
 
 
