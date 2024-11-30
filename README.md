@@ -1,11 +1,24 @@
  # MongoDB-Basics
  MongoDB Basic Course - 1
 
-## Commands
-### To Create a Database
+### Commands
+
+##### 1. Create Database
 ```bash
-use school
+use <databaseName>   # Switches to the specified database, creating it if it doesn't exist
 ```
+
+###### 2. Read Database
+```bash
+show dbs           # Lists all databases
+db                # Displays the current database
+```
+
+###### 4. Delete Database
+```bash
+db.dropDatabase()  # Deletes the current database
+```
+
 
 > # CRUD Operation 
 
