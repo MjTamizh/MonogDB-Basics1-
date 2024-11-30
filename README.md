@@ -1,6 +1,8 @@
  # MongoDB-Basics
  MongoDB Basic Course - 1 
- MongoDB Database Methods , MongoDB Collection Methods
+ 1. MongoDB Database Methods
+ 2. MongoDB Collection Methods
+ 3. CRUD Operation
 
 ## Commands
 
