@@ -9,6 +9,9 @@ This document contains essential MongoDB commands for beginners.
 ```bash
 use school
 
+Create a Collection
+Insert a Single Document
+
 db.student.insertOne({name: 'tamil', age: 27})
 
 
