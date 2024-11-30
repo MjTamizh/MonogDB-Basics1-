@@ -1,5 +1,5 @@
  # MongoDB-Basics
- `#RRGGBB` MongoDB Basic Course - 1
+ MongoDB Basic Course - 1
 
 ## Commands
 ### To Create a Database
