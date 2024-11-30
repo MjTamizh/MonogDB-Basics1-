@@ -15,25 +15,20 @@ Create a Collection
  ### Insert a Single Document
 
 
- # Example headings
-
-## Sample Section
-
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
 
 db.student.insertOne({name: 'tamil', age: 27})
 
-Retrieve All Data from a Collection
+### Retrieve All Data from a Collection
 
 db.student.find()
 
 
-Insert Operations
+### Insert Operations
 
 db.student.insertOne({name: 'tamil', age: 27, district: 'cuddalore'})
 
 
-Insert One Document with Embedded Data
+### Insert One Document with Embedded Data
 
 db.student.insertOne({
   name: 'Harish',
@@ -45,7 +40,7 @@ db.student.insertOne({
   }
 })
 
-Insert Multiple Documents
+### Insert Multiple Documents
 
 db.student.insertMany([
   {
@@ -68,7 +63,7 @@ db.student.insertMany([
   }
 ])
 
-Insert with Different Data Types
+### Insert with Different Data Types
 
 
 db.student.insertOne({
