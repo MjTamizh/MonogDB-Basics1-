@@ -11,7 +11,7 @@ use school
 
 Create a Collection
 
-Insert a Single Document
+ ### Insert a Single Document
 
 db.student.insertOne({name: 'tamil', age: 27})
 
