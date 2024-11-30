@@ -3,6 +3,7 @@
  1. MongoDB Database Methods
  2. MongoDB Collection Methods
  3. CRUD Operation
+ 4. Different data types
 
 ## Commands
 
