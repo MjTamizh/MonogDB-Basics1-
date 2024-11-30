@@ -1,7 +1,9 @@
  # MongoDB-Basics
  MongoDB Basic Course - 1
 
-### Commands
+## Commands
+
+### MongoDB Database Methods
 
 ##### 1. Create Database
 ```bash
@@ -14,7 +16,7 @@ show dbs           # Lists all databases
 db                # Displays the current database
 ```
 
-###### 4. Delete Database
+###### 3. Delete Database
 ```bash
 db.dropDatabase()  # Deletes the current database
 ```
