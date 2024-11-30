@@ -7,6 +7,33 @@ MongoDB Basic Course - 1
 
 use school
 
+
+
+# CRUD Operation Commands
+
+### 1. Create
+
+- insertOne(data, options)
+- insertMany([data1, data2, ...], options)
+
+#### 2. Read
+- find(query, projection)
+- findOne(query, projection)
+
+#### 3. Update
+- updateOne(filter, update, options)
+- updateMany(filter, update, options)
+
+#### 4. Delete
+
+- deleteOne(filter, options)
+- deleteMany(filter, options)
+
+#### 5. Replace
+
+- replaceOne(filter, replacement, options)
+
+
 Create a Collection
 
  ### Insert a Single Document
@@ -77,34 +104,9 @@ db.student.insertOne({
 })
 
 
-> CRUD Operation commands
-1. create
 
 
 
-# CRUD Operation Commands
-
-### 1. Create
-
-- insertOne(data, options)
-- insertMany([data1, data2, ...], options)
-
-#### 2. Read
-- find(query, projection)
-- findOne(query, projection)
-
-#### 3. Update
-- updateOne(filter, update, options)
-- updateMany(filter, update, options)
-
-#### 4. Delete
-
-- deleteOne(filter, options)
-- deleteMany(filter, options)
-
-#### 5. Replace
-
-- replaceOne(filter, replacement, options)
 
 
 
