@@ -29,6 +29,38 @@ db.dropDatabase()
 ### MongoDB Collection Methods
 
 
+
+###### 1. List Collections
+
+```bash
+show collections
+```
+
+
+###### 2. Drop a Collection
+```bash
+db.<collectionName>.drop()
+```
+Drops (deletes) the specified collection from the database.
+Example: db.students.drop()
+
+###### 3. Count Documents in a Collection
+```bash
+db.<collectionName>.countDocuments({<filter>})
+```
+Counts the number of documents matching the filter in the collection.
+Example: db.students.countDocuments({age: 27})   Counts documents where age is 27
+
+###### 4. Distinct Values in a Collection
+```bash
+db.<collectionName>.distinct(<field>, {<filter>})
+
+```
+  Returns an array of distinct values for a given field.
+Example: db.students.distinct("district")   Returns all distinct values for the "district" field
+
+
+
 >  CRUD Operation 
 
 ### 1. Create
