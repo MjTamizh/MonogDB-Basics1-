@@ -35,24 +35,24 @@ use school
 
 # CRUD Operation Commands
 
- ### Insert a Single Document
+ #### Insert a Single Document
 
 ```bash
 db.student.insertOne({name: 'tamil', age: 27})
 ```
 
-### Retrieve All Data from a Collection
+#### Retrieve All Data from a Collection
 
 ```bash
 db.student.find()
 ```
 
-### Insert Operations
+#### Insert Operations
 
 db.student.insertOne({name: 'tamil', age: 27, district: 'cuddalore'})
 
 
-### Insert One Document with Embedded Data
+#### Insert One Document with Embedded Data
 
 ```bash
 db.student.insertOne({
@@ -67,7 +67,7 @@ db.student.insertOne({
 
 ```
 
-### Insert Multiple Documents
+#### Insert Multiple Documents
 
 ```bash
 db.student.insertMany([
@@ -92,7 +92,7 @@ db.student.insertMany([
 ])
 
 ```
-### Insert with Different Data Types
+#### Insert with Different Data Types
 
 ```bash
 db.student.insertOne({
