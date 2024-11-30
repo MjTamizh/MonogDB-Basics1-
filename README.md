@@ -46,14 +46,14 @@ show collections
 db.<collectionName>.drop()
 ```
 Drops (deletes) the specified collection from the database.
-Example: db.students.drop()
+Example: db.studentss.drop()
 
 ###### 3. Count Documents in a Collection
 ```bash
 db.<collectionName>.countDocuments({<filter>})
 ```
 Counts the number of documents matching the filter in the collection.
-Example: db.students.countDocuments({age: 27})   Counts documents where age is 27
+Example: db.studentss.countDocuments({age: 27})   Counts documents where age is 27
 
 ###### 4. Distinct Values in a Collection
 ```bash
@@ -61,7 +61,7 @@ db.<collectionName>.distinct(<field>, {<filter>})
 
 ```
   Returns an array of distinct values for a given field.
-Example: db.students.distinct("district")   Returns all distinct values for the "district" field
+Example: db.studentss.distinct("district")   Returns all distinct values for the "district" field
 
 
 
@@ -99,13 +99,13 @@ Example: db.students.distinct("district")   Returns all distinct values for the 
  #### Insert a Single Document
 
 ```bash
-db.student.insertOne({name: 'tamil', age: 27})
+db.students.insertOne({name: 'tamil', age: 27})
 ```
 
 #### Insert One Document with Embedded Data
 
 ```bash
-db.student.insertOne({
+db.students.insertOne({
   name: 'Harish',
   age: 22,
   address: {
@@ -120,7 +120,7 @@ db.student.insertOne({
 #### Insert Multiple Documents
 
 ```bash
-db.student.insertMany([
+db.students.insertMany([
   {
     name: 'Harish',
     age: 22,
@@ -145,7 +145,7 @@ db.student.insertMany([
 > #### Insert with Different Data Types
 
 ```bash
-db.student.insertOne({
+db.students.insertOne({
   name: 'Raja',
   age: 25,
   height: 5.5,
@@ -167,49 +167,49 @@ db.student.insertOne({
 
 #### Retrieve all documents
 ```bash
-db.student.find()
+db.students.find()
 ```
 
 #### Retrieve data with a filter
 ```bash
-db.student.find({district: 'Chennai'})
+db.students.find({district: 'Chennai'})
 ```
 
 #### Retrieve a single document
 
 ```bash
-db.student.findOne({name: 'Harish'})
+db.students.findOne({name: 'Harish'})
 ```
 
 ### 3. Update Operations
 
 #### Update a single document
 ```bash
-db.student.updateOne({name: 'Harish'}, {$set: {age: 23}})
+db.students.updateOne({name: 'Harish'}, {$set: {age: 23}})
 ```
 
 #### Update multiple documents
 ```bash
-db.student.updateMany({district: 'Chennai'}, {$set: {district: 'Madras'}})
+db.students.updateMany({district: 'Chennai'}, {$set: {district: 'Madras'}})
 ```
 
 ### 4. Delete Operations
 
 #### Delete a single document
 ```bash
-db.student.deleteOne({name: 'Harish'})
+db.students.deleteOne({name: 'Harish'})
 ```
 
 #### Delete multiple documents
 ```bash
-db.student.deleteMany({district: 'Cuddalore'})
+db.students.deleteMany({district: 'Cuddalore'})
 ```
 
 ### 5. Replace Operations
 
 #### Replace a single document
 ```bash
-db.student.replaceOne(
+db.students.replaceOne(
   {name: 'Harish'},
   {name: 'Harish Kumar', age: 24, district: 'Bangalore'}
 )
@@ -219,32 +219,32 @@ db.student.replaceOne(
 
  toArray() 
  ```bash
-  db.students.find().toArray()
+  db.studentss.find().toArray()
 ```
 
 forEach()
 ```bash
- db.students.find().forEach((student) => printjson(student))
+ db.studentss.find().forEach((students) => printjson(students))
 ```
 
 limit()
 ```bash
-db.students.find().limit(3)
+db.studentss.find().limit(3)
 ```
 
 skip()
 ```bash 
-db.students.find().skip(2)
+db.studentss.find().skip(2)
  ```
 
 sort() 
 ```bash
-   db.students.find().sort({ name: 1 })
-   db.students.find().count()
+   db.studentss.find().sort({ name: 1 })
+   db.studentss.find().count()
 ```
  count()
  ```bash
- db.students.find({ grade: "A" }).count()
+ db.studentss.find({ grade: "A" }).count()
 ```
 
 
