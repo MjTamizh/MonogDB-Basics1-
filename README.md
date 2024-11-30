@@ -6,10 +6,9 @@ This document contains essential MongoDB commands for beginners.
 ## Commands
 
 ### To Create a Database
-```bash
-use school
 
-```bash
+
+use school
 
 Create a Collection
 
