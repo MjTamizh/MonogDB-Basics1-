@@ -9,6 +9,8 @@ This document contains essential MongoDB commands for beginners.
 ```bash
 use school
 
+```bash
+
 Create a Collection
 
  ### Insert a Single Document
