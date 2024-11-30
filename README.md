@@ -1,7 +1,6 @@
 # MongoDB-Basics1
 MongoDB Basic Course - 1
 
-This document contains essential MongoDB commands for beginners.
 
 ## Commands
 
