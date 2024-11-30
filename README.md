@@ -14,6 +14,13 @@ Create a Collection
 
  ### Insert a Single Document
 
+
+ # Example headings
+
+## Sample Section
+
+## This'll be a _Helpful_ Section About the Greek Letter Θ!
+
 db.student.insertOne({name: 'tamil', age: 27})
 
 Retrieve All Data from a Collection
