@@ -3,10 +3,11 @@ MongoDB Basic Course - 1
 
 ## Commands
 ### To Create a Database
+```bash
 use school
+```
 
-
-# CRUD Operation Commands
+# CRUD Operation 
 
 ### 1. Create
 
@@ -32,16 +33,19 @@ use school
 
 
 
-Create a Collection
+# CRUD Operation Commands
 
  ### Insert a Single Document
 
+```bash
 db.student.insertOne({name: 'tamil', age: 27})
+```
 
 ### Retrieve All Data from a Collection
 
+```bash
 db.student.find()
-
+```
 
 ### Insert Operations
 
@@ -65,6 +69,7 @@ db.student.insertOne({
 
 ### Insert Multiple Documents
 
+```bash
 db.student.insertMany([
   {
     name: 'Harish',
@@ -86,9 +91,10 @@ db.student.insertMany([
   }
 ])
 
+```
 ### Insert with Different Data Types
 
-
+```bash
 db.student.insertOne({
   name: 'Raja',
   age: 25,
@@ -104,6 +110,7 @@ db.student.insertOne({
   createdAt: new Timestamp()
 })
 
+```
 
 
 
