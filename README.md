@@ -87,8 +87,8 @@ db.student.insertOne({
 ```bash
 # 1. Create
 
-insertOne(data, options)
-insertMany([data1, data2, ...], options)
+- insertOne(data, options)
+- insertMany([data1, data2, ...], options)
 
 # 2. Read
 find(query, projection)
