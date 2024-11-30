@@ -1,19 +1,15 @@
 # MongoDB-Basics1
 MongoDB Basic Course - 1
 
-
 ## Commands
 
 ### To Create a Database
-
 
 use school
 
 Create a Collection
 
  ### Insert a Single Document
-
-
 
 db.student.insertOne({name: 'tamil', age: 27})
 
@@ -81,7 +77,7 @@ db.student.insertOne({
 })
 
 
-> check
+> CRUD Operation commands
 
 
 
