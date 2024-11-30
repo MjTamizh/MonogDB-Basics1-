@@ -7,7 +7,7 @@ MongoDB Basic Course - 1
 use school
 ```
 
-# CRUD Operation 
+> # CRUD Operation 
 
 ### 1. Create
 
@@ -33,7 +33,7 @@ use school
 
 
 
-# CRUD Operation Commands
+> # CRUD Operation Commands
 
 
 ### 1. Insert Operations
@@ -156,7 +156,7 @@ db.student.replaceOne(
   {name: 'Harish Kumar', age: 24, district: 'Bangalore'}
 )
 ```
-> how are you
+ 
 
 
 
