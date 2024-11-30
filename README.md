@@ -7,25 +7,26 @@
 ### MongoDB Database Methods
 
 ##### 1. Create Database
+ Switches to the specified database, creating it if it doesn't exist
+
 ```bash
-use <databaseName>   # Switches to the specified database, creating it if it doesn't exist
+use <databaseName>   
 ```
 
 ###### 2. Read Database
+ Displays the current database
+ Lists all databases
 ```bash
-show dbs           # Lists all databases
-db                # Displays the current database
+show dbs                            
 ```
 
 ###### 3. Delete Database
+Deletes the current database
 ```bash
-db.dropDatabase()  # Deletes the current database
+db.dropDatabase()   
 ```
 
 ### MongoDB Collection Methods
-
-
-
 
 
 > # CRUD Operation 
