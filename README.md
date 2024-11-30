@@ -90,13 +90,12 @@ db.student.insertOne({
 - insertMany([data1, data2, ...], options)
 
 #### 2. Read
-find(query, projection)
-findOne(query, projection)
+- find(query, projection)
+- findOne(query, projection)
 
 #### 3. Update
-
-updateOne(filter, update, options)
-updateMany(filter, update, options)
+- updateOne(filter, update, options)
+- updateMany(filter, update, options)
 
 #### 4. Delete
 
@@ -105,7 +104,7 @@ updateMany(filter, update, options)
 
 #### 5. Replace
 
-replaceOne(filter, replacement, options)
+- replaceOne(filter, replacement, options)
 
 
 
