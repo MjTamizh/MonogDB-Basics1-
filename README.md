@@ -84,27 +84,26 @@ db.student.insertOne({
 
 # CRUD Operation Commands
 
-```bash
-# 1. Create
+### 1. Create
 
 - insertOne(data, options)
 - insertMany([data1, data2, ...], options)
 
-# 2. Read
+#### 2. Read
 find(query, projection)
 findOne(query, projection)
 
-# 3. Update
+#### 3. Update
 
 updateOne(filter, update, options)
 updateMany(filter, update, options)
 
-# 4. Delete
+#### 4. Delete
 
-deleteOne(filter, options)
-deleteMany(filter, options)
+- deleteOne(filter, options)
+- deleteMany(filter, options)
 
-# 5. Replace
+#### 5. Replace
 
 replaceOne(filter, replacement, options)
 
