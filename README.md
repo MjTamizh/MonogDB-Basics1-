@@ -104,7 +104,7 @@ updateMany(filter, update, options)
 deleteOne(filter, options)
 deleteMany(filter, options)
 
-**###** 5. Replace
+# 5. Replace
 
 replaceOne(filter, replacement, options)
 
