@@ -141,7 +141,7 @@ db.student.insertMany([
 ])
 
 ```
-#### Insert with Different Data Types
+> #### Insert with Different Data Types
 
 ```bash
 db.student.insertOne({
