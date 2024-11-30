@@ -31,6 +31,7 @@ use school
 - replaceOne(filter, replacement, options)
 
 
+
 Create a Collection
 
  ### Insert a Single Document
@@ -49,6 +50,7 @@ db.student.insertOne({name: 'tamil', age: 27, district: 'cuddalore'})
 
 ### Insert One Document with Embedded Data
 
+```bash
 db.student.insertOne({
   name: 'Harish',
   age: 22,
@@ -58,6 +60,8 @@ db.student.insertOne({
     pincode: 600001
   }
 })
+
+```
 
 ### Insert Multiple Documents
 
