@@ -78,6 +78,8 @@ db.student.insertOne({
 
 
 > CRUD Operation commands
+1. create
+2. 
 
 
 
