@@ -10,3 +10,6 @@ This document contains essential MongoDB commands for beginners.
 use school
 
 db.student.insertOne({name: 'tamil', age: 27})
+
+
+db.student.find()
