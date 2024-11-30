@@ -218,16 +218,24 @@ db.student.replaceOne(
 ### Cursor Object
 
  toArray() 
- ```bash  db.students.find().toArray() ```
+ ```bash
+  db.students.find().toArray()
+```
 
 forEach()
-```bash db.students.find().forEach((student) => printjson(student)) ```
+```bash
+ db.students.find().forEach((student) => printjson(student))
+```
 
 limit()
-```bash db.students.find().limit(3) ```
+```bash
+db.students.find().limit(3)
+```
 
 skip()
-```bash db.students.find().skip(2) ```
+```bash 
+db.students.find().skip(2)
+ ```
 
 sort() 
 ```bash
