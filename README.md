@@ -4,10 +4,11 @@
  2. MongoDB Collection Methods
  3. CRUD Operation
  4. Different data types
+ 5. Cursor Object
 
 ## Commands
 
-### MongoDB Database Methods
+>  ### MongoDB Database Methods
 
 ##### 1. Create Database
  Switches to the specified database, creating it if it doesn't exist
@@ -29,7 +30,7 @@ Deletes the current database
 db.dropDatabase()   
 ```
 
-### MongoDB Collection Methods
+>  ### MongoDB Collection Methods
 
 
 
@@ -64,7 +65,7 @@ Example: db.students.distinct("district")   Returns all distinct values for the 
 
 
 
->  CRUD Operation 
+>  ### CRUD Operation 
 
 ### 1. Create
 
@@ -90,7 +91,7 @@ Example: db.students.distinct("district")   Returns all distinct values for the 
 
 
 
->  CRUD Operation Commands
+>  ###  CRUD Operation Commands
 
 
 ### 1. Insert Operations
