@@ -16,6 +16,12 @@
 ```bash
 use <databaseName>   
 ```
+Details
+
+```bash
+db.stats()   
+```
+
 
 ###### 2. Read Database
  Displays the current database
