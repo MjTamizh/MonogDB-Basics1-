@@ -29,7 +29,7 @@ db.dropDatabase()
 ### MongoDB Collection Methods
 
 
-> # CRUD Operation 
+>  CRUD Operation 
 
 ### 1. Create
 
@@ -55,7 +55,7 @@ db.dropDatabase()
 
 
 
-> # CRUD Operation Commands
+>  CRUD Operation Commands
 
 
 ### 1. Insert Operations
