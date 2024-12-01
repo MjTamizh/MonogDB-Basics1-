@@ -52,14 +52,14 @@ show collections
 db.<collectionName>.drop()
 ```
 Drops (deletes) the specified collection from the database.
-Example: db.studentss.drop()
+Example: db.students.drop()
 
 ###### 3. Count Documents in a Collection
 ```bash
 db.<collectionName>.countDocuments({<filter>})
 ```
 Counts the number of documents matching the filter in the collection.
-Example: db.studentss.countDocuments({age: 27})   Counts documents where age is 27
+Example: db.students.countDocuments({age: 27})   Counts documents where age is 27
 
 ###### 4. Distinct Values in a Collection
 ```bash
@@ -67,7 +67,7 @@ db.<collectionName>.distinct(<field>, {<filter>})
 
 ```
   Returns an array of distinct values for a given field.
-Example: db.studentss.distinct("district")   Returns all distinct values for the "district" field
+Example: db.students.distinct("district")   Returns all distinct values for the "district" field
 
 
 
@@ -225,32 +225,32 @@ db.students.replaceOne(
 
  toArray() 
  ```bash
-  db.studentss.find().toArray()
+  db.students.find().toArray()
 ```
 
 forEach()
 ```bash
- db.studentss.find().forEach((students) => printjson(students))
+ db.students.find().forEach((students) => printjson(students))
 ```
 
 limit()
 ```bash
-db.studentss.find().limit(3)
+db.students.find().limit(3)
 ```
 
 skip()
 ```bash 
-db.studentss.find().skip(2)
+db.students.find().skip(2)
  ```
 
 sort() 
 ```bash
-   db.studentss.find().sort({ name: 1 })
-   db.studentss.find().count()
+   db.students.find().sort({ name: 1 })
+   db.students.find().count()
 ```
  count()
  ```bash
- db.studentss.find({ grade: "A" }).count()
+ db.students.find({ grade: "A" }).count()
 ```
 
 
